@@ -7,7 +7,6 @@
  * Frecuencia: una medicion cada 5 minutos
  *
  * IMPORTANTE: las credenciales OTAA incluidas son ficticias.
- * No publicar DEVEUI/APPEUI/APPKEY reales en GitHub.
  */
 
 #include <Arduino.h>
