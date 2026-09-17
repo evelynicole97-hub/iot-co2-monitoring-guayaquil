@@ -1,0 +1,14 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# Credenciales
+include/credentials.h
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
