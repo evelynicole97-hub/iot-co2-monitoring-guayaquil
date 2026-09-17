@@ -104,7 +104,7 @@ bool readCO2()
     return true;
 }
 
-// Transmite exclusivamente el valor de CO2.
+// Transmite el valor de CO2.
 void sendCO2()
 {
     if (LMIC.opmode & OP_TXRXPEND) {
