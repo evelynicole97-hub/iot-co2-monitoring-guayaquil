@@ -9,7 +9,7 @@ import matplotlib.dates as mdates
 
 # ================= CONFIGURACIÓN =================
 INFLUX_URL = "http://localhost:8086"
-INFLUX_TOKEN = "CAMBIAR_POR_TU_TOKEN"
+INFLUX_TOKEN = "TOKEN"
 INFLUX_ORG = "universidad"
 INFLUX_BUCKET = "co2_monitoring"
 INFLUX_MEASUREMENT = "co2"
@@ -109,7 +109,7 @@ class CO2MonitorApp:
 
     def connect_influxdb(self):
         try:
-            if INFLUX_TOKEN == "CAMBIAR_POR_TU_TOKEN":
+            if INFLUX_TOKEN == "TOKEN":
                 self.connection_label.config(text="● Configure el token")
                 self.status_var.set("Configure INFLUX_TOKEN en app.py")
                 return False
